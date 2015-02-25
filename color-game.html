@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>比比谁更色</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="animation.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="zepto.js"></script>
+	</head>
+	<body>
+		<div class="button-container">
+			<div id="diff">
+			  <button>简单</button><button class="btn-active">一般</button><button>困难</button>
+			</div>
+			<div class="model-container">
+		    <button id="model">无尽模式</button><button id="restart">重新开始</button>
+		  </div>
+			<div class="info">
+				<p class="infoText">时间</p><p id="timeNum" class="infoNum">25</p>
+				<p class="infoText">分数</p><p id="scoreNum" class="infoNum">0</p>
+			</div>
+		</div>
+		<div id="main-container">
+		  <ul id="game-area"></ul>
+		  <div id="passScreen">
+		    <div id="pass">第<span></span>关</div>
+		  </div>
+		</div>
+		<div id="winScreen">
+		  <p class="text">游戏结束!</p>
+		  <div class="score">
+		  	<p></p><!--显示游戏模式-->
+		  	<p></p><!--显示难度级别-->
+		  	<p>分数<span></span></p>
+		  </div>
+		  <button>再来一次</button>
+		</div>
+		<button id="help" class="btn-large">暂停 & 帮助</button>
+		<div id="moreInfo">
+			<div>
+				<h3>游戏怎么玩？</h3>
+				<p>难度系数：根据颜色区分度分为简单、一般、困难。</p>
+				<p>游戏模式：分为无尽模式模式和通关模式。这里要提醒的是，通关模式下越到后面颜色区分度越小。</p>
+				<p>计时策略：初始时你拥有25秒的时间来寻找方块，成功+10，失败-5，最多不超过25，通关模式下有额外时间奖励，时间为零则结束游戏。</p>			
+			</div>
+		  <div>
+		  	<h3>作者信息</h3>
+		  	<p>Powered by HuangAncheng</p>
+		  	<p>@ 西安电子科技大学 &copy;2015</p>
+		  	<p>博客地址 <a href="http://www.feiyoung.5520.pw">http://www.feiyoung.5520.pw</a></p>
+		  </div>
+		  <div>
+		  	<h3>祝您游戏愉快！</h3>
+		  	<p>您有任何问题需要交流，欢迎给我邮件，谢谢！</p>
+		  	<p>Email:1021843743@qq.com</p>
+		  </div>
+		  <button id="return" class="btn-large">返回游戏</button>	
+		</div>
+			
+		<script type="text/javascript" src="demo.js"></script>
+	</body>
+</html>

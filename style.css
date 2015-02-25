@@ -1,0 +1,28 @@
+*{padding:0;margin:0;}
+body{background-color:#333;}
+button{padding:6px 12px;font-size:18px;color:#fff;background-color:#666;border:none;border-radius:4px;box-shadow:inset 0 30px 15px rgba(0, 0, 0, .125);}
+.btn-active{background-color:#3071a9;}
+.button-container{width:100%;}
+.button-container div{margin-top:10px;}
+.button-container div button{margin-right:5%;}
+.model-container button{background-color:#c9302c;}
+.info{width:80%;height:24px;margin-left:10%;}
+.info p{width:25%;height:24px;line-height:24px;float:left;font-weight:bold;text-align:right;}
+.infoText{font-size:20px;color:#eee;}
+.infoNum{font-size:24px;color:#00B700;}
+#main-container{margin:10px auto;border:3px solid #fff;border-radius:10px;clear:both;position:relative;}
+#main-container ul{width:100%;height:100%;list-style:none;overflow:hidden;}
+#main-container ul li{float:left;border-radius:5px;}
+#passScreen{background-color:#000;border-radius:10px;opacity:0.7;position:absolute;left:0;top:0;z-index:9998;display:none;}
+#pass{position:absolute;left:25%;top:30%;width:50%;height:50px;font-size:35px;font-weight:bold;color:#33AC0B;text-align:center;line-height:50px;border-radius:10px;background-color:#eee;}
+#winScreen{background-color:#000;opacity:0.9;position:absolute;left:0;top:0;z-index:9999;display:none;}
+#winScreen button{background-color:#c9302c;display:block;width:40%;margin-left:30%;margin-top:30px;}
+.text{font-size:30px;font-weight:bold;color:#fff;text-align:center;margin:30px 0;}
+.score{width:60%;background-color:#eee;border-radius:5px;margin-left:20%;padding:15px 0;}
+.score p{font-size:16px;font-weight:bold;color:#000;text-align:center;padding:2px 0;}
+.score p span{display:block;font-size:50px;}
+.btn-large{display:block;width:80%;margin-left:10%;}
+#moreInfo{background-color:#ccc;position:absolute;left:0;top:0;z-index:99999;display:none;}
+#moreInfo div{padding:10px;line-height:20px;}
+#moreInfo div h3{font-size:20px;color:#123;text-align:center;}
+#moreInfo div p{font-size:14px;color:#333;text-indent:20px;}
